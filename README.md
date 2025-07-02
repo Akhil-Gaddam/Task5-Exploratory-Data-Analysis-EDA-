@@ -21,8 +21,9 @@ Perform Exploratory Data Analysis on the Titanic dataset to extract insights usi
 ## Steps Performed
  - Loaded Titanic dataset (`train.csv`).  
  - Performed initial data checks (`.info()`, `.describe()`, `.isnull().sum()`).  
- - Handled missing values in 'Age' and 'Embarked'.  
- **Plotted:**
+ - Handled missing values in 'Age' and 'Embarked'.
+
+**Plotted:**
 - Histograms for 'Age' and 'Fare'.
 - Countplots for 'Survived', 'Pclass', and 'Survived' vs 'Pclass'.
 - Boxplots for 'Survived' vs 'Age'.

@@ -10,13 +10,19 @@ Perform Exploratory Data Analysis on the Titanic dataset to extract insights usi
 - Seaborn
 
 # Files
+- `Task5_Titanic_EDA.ipynb`: The Jupyter Notebook with complete EDA.
+- `Task5_Titanic_EDA_Report.pdf`: PDF export for easy viewing.
+- `train.csv`: Titanic dataset used for EDA.
+
+## Dataset
+- Titanic Dataset downloaded from [Kaggle](https://www.kaggle.com/c/titanic/data).
 
 
 ## Steps Performed
  - Loaded Titanic dataset (`train.csv`).  
  - Performed initial data checks (`.info()`, `.describe()`, `.isnull().sum()`).  
  - Handled missing values in 'Age' and 'Embarked'.  
-# Plotted:
+ **Plotted:**
 - Histograms for 'Age' and 'Fare'.
 - Countplots for 'Survived', 'Pclass', and 'Survived' vs 'Pclass'.
 - Boxplots for 'Survived' vs 'Age'.
@@ -24,6 +30,8 @@ Perform Exploratory Data Analysis on the Titanic dataset to extract insights usi
 - Heatmap for correlation analysis.
 - Pairplot for multivariate exploration.
 
+- Added observations under each plot.  
+- Provided a final summary of insights.
 
 ## Key Findings
 - Most passengers are young adults.
@@ -32,8 +40,6 @@ Perform Exploratory Data Analysis on the Titanic dataset to extract insights usi
 - Fare and Pclass correlate with survival.
 - No major multicollinearity among numeric features.
 
-## Dataset
-- Titanic Dataset from [Kaggle](https://www.kaggle.com/c/titanic/data).
 
 ## Outcome
 This task improved skills in using visual and statistical methods to find patterns, trends, and anomalies in real-world data, preparing for predictive modeling.
